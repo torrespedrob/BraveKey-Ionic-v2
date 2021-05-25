@@ -19,4 +19,19 @@ Mediante el botón +, el usuario será dirigido al formulario de creación de te
 
 ![CapturaCreateKeyboard](https://github.com/torrespedrob/BraveKey-Ionic-v2/blob/main/CapturaCreateKeyboard.gif)
 
+### Edición y eliminación de un teclado
+Usando los iconos de lápiz y basura en la miniatura de nuestro teclado, procederemos con la edición y eliminado del teclado respectivamente.
+
+![CapturaEditDelete](https://github.com/torrespedrob/BraveKey-Ionic-v2/blob/main/CapturaEditDelete.gif)
+
+### Registro de un usuario
+En la página de inicio, mediante el botón de crear cuenta, el usuario accederá al formulario para registrarse en la app.
+
+![CapturaSignUp](https://github.com/torrespedrob/BraveKey-Ionic-v2/blob/main/CapturaSignUp.gif)
+
+### Navegación
+El usuario podrá moverse en todo momento por las secciones de la aplicación mediante el menú hamburguesa de la esquina superior izquierda.
+
+![CapturaMenu](https://github.com/torrespedrob/BraveKey-Ionic-v2/blob/main/CapturaMenu.png)
+
 
