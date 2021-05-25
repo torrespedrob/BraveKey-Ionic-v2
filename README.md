@@ -36,12 +36,19 @@ El usuario podrá moverse en todo momento por las secciones de la aplicación me
 
 ## Requisitos de la aplicación
 ✅ Páginas y/o componentes que aíslen correctamente las diferentes funcionalidades.
+
 ✅ Servicio/s para grabar datos y para proveer datos a la aplicación.
+
 ✅ Inyección de dependencias.
+
 ✅ Estructuras ngIf y ngFor.
+
 ✅ Clase/s y/o interfaz/interfaces.
+
 ✅ Estilos propios.
+
 ✅ Almacenamiento de datos de manera local (no quita que se puedan utilizar datos en la nube).
+
 ✅ Ventana/s emergente/es
 
 ## Funcionalidad extra añadida
