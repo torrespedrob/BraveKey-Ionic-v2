@@ -10,6 +10,13 @@ Al entrar a la aplicación, el usuario encontrará la pantalla de bienvenida, do
 
 ![CapturaInicio](https://github.com/torrespedrob/BraveKey-Ionic-v2/blob/main/CapturaInicio.png)
 
-En la siguiente imagen podemos apreciar el proceso de logeo de un usuario.
+En la siguiente imagen podemos apreciar el proceso de logeo de un usuario. Tras iniciar sesión, el usuario es dirigido a la pantalla donde se encuentran sus teclados.
 
 ![CapturaLogin](https://github.com/torrespedrob/BraveKey-Ionic-v2/blob/main/CapturaLogin.gif)
+
+### Creación de un teclado
+Mediante el botón +, el usuario será dirigido al formulario de creación de teclados, donde rellenará con los datos deseados el perfil del teclado a registar.
+
+![CapturaCreateKeyboard](https://github.com/torrespedrob/BraveKey-Ionic-v2/blob/main/CapturaCreateKeyboard.gif)
+
+
