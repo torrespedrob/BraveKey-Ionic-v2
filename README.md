@@ -34,6 +34,11 @@ El usuario podrá moverse en todo momento por las secciones de la aplicación me
 
 ![CapturaMenu](https://github.com/torrespedrob/BraveKey-Ionic-v2/blob/main/CapturaMenu.png)
 
+### Ionic Storage Local
+Al pulsar el botón mostrar hora, aparece una alerta en la que se muestra la fecha en la que se completó la aplicación y la fecha en la que el usuario accede a la página. Estos valores quedan registrados localmente en la base de datos de Ionic Storage, demostrando que funciona correctamente. 
+
+![CapturaIonicStorage](https://github.com/torrespedrob/BraveKey-Ionic-v2/blob/main/CapturaIonicStorage.gif)
+
 ## Requisitos de la aplicación
 ✅ Páginas y/o componentes que aíslen correctamente las diferentes funcionalidades.
 
