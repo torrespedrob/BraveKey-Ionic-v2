@@ -52,8 +52,11 @@ El usuario podrá moverse en todo momento por las secciones de la aplicación me
 ✅ Ventana/s emergente/es
 
 ## Funcionalidad extra añadida
-Control de errores: Comprueba que la sesión está cerrada antes de crear otra cuenta o resetear la contraseña.
-Error: Controlar si en la creación de cuenta, el correo ya está registrado y mostrar alert.
-Formulario: Un segundo option tendrá otros resultados según lo seleccionado en el anterior.
-Ng-If: Si el length del array es 0, mostrar un mensaje que nos invite a guardar un teclado.
+* Control de errores: Comprueba que la sesión está cerrada antes de crear otra cuenta o resetear la contraseña.
+ 
+* Error: Controlar si en la creación de cuenta, el correo ya está registrado y mostrar alert.
+ 
+* Formulario: Un segundo option tendrá otros resultados según lo seleccionado en el anterior.
+
+* Ng-If: Si el length del array es 0, mostrar un mensaje que nos invite a guardar un teclado.
 
