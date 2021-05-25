@@ -1,0 +1,7 @@
+{
+  "name": "bravekey2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

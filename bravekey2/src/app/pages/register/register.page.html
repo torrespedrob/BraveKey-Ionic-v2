@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="title" color="primary" href="/login"
+      style="text-decoration: none; font-family: 'Pacifico', cursive;"><a href="/login">BraveKey</a>
+      <ion-icon class="blank"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-text-center">
+         <ion-icon name="mail-outline" class="person"></ion-icon>
+         <ion-icon name="person-add" class="person"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+<p style="text-align: center;">Solo necesitas introducir tu correo y crear una contraseña para registrarte</p>
+
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Correo electrónico</ion-label>
+      <ion-input clearInput [(ngModel)]="email">
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Contraseña</ion-label>
+      <ion-input type="password" clearInput 
+        [(ngModel)]="password">
+      </ion-input>
+    </ion-item>
+  </ion-list>
+
+  <br>
+
+  <ion-button id="botonTema" expand="block" (click)="createUser()">
+    Aceptar
+  </ion-button>
+
+  <br>
+
+  <ion-button expand="block" color="danger" href="/login">
+    Cancelar
+  </ion-button>
+</ion-content>

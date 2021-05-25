@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title class="title" color="primary" href="/login"
+      style="text-decoration: none; font-family: 'Pacifico', cursive;"><a href="/login">BraveKey</a>
+      <ion-icon class="blank"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding" style="text-align: center;">
+  <ion-title class="title">Mis teclados</ion-title><br>
+  <ion-header collapse="condense">
+  </ion-header>
+
+
+  <ion-item *ngFor="let build of builds | async">
+    <br>
+    <ion-card>
+      <img width="280px" src="{{ build.url }}" />
+      <ion-label><strong>{{ build.name }}</strong></ion-label><br>
+      <ion-label>Keycaps: {{ build.keycaps }}</ion-label>
+      <ion-label>Switches: {{ build.switchManufacturer }} {{ build.switchType }} </ion-label>
+      <ion-label>Formato: {{ build.format }}</ion-label>
+      <ion-label>Valor: {{ build.value }} €</ion-label><br>
+      <ion-icon name="pencil" (click)="goEditBuild(build.buildId)">
+      </ion-icon>
+      <ion-icon name="blank"></ion-icon>
+      <ion-icon name="trash" (click)="buildService.deleteBuildById(build.buildId)">
+      </ion-icon><br>
+    </ion-card>
+  </ion-item>
+
+  <h3 *ngIf="copiaBuilds.length == 0">Actualmente no existen teclados guardados, pulsa el botón + para añadir uno</h3>
+
+
+
+  <footer style="text-align: center; padding: 20px">
+    <p>Aplicación realizada por <a color="primary" href="https://github.com/torrespedrob/BraveKey-Ionic-v2">Pedro Torres
+        <ion-icon name="logo-github" color="warnings"></ion-icon></a></p>
+  </footer>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+
+    <ion-fab-button id="botonTema" (click)="addBuild()">
+      <ion-icon name="add" color="light"></ion-icon>
+    </ion-fab-button>
+
+  </ion-fab>
+</ion-content>

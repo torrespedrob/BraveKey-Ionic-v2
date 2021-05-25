@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title class="title" color="primary" href="/login"
+      style="text-decoration: none; font-family: 'Pacifico', cursive;"><a href="/login">BraveKey</a>
+      <ion-icon class="blank"></ion-icon>
+    </ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <header>
+    <div class="overlay">
+      <p class="ion-text-center">La aplicación para organizar tu colección de teclados mecánicos</p>
+    </div>
+
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="assets/video/intro.mp4" type="video/mp4">
+    </video>
+  </header>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Correo electrónico</ion-label>
+      <ion-input  clearInput  [(ngModel)]="email">
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input name="password" type="text" clearInput
+        [type]="showPassword ? 'text' : 'password'" (keyup.enter)="login()" [(ngModel)]="password">
+      </ion-input>
+      <ion-icon slot="end" [name]="passwordToggleIcon" (click)="togglePassword()"></ion-icon>
+    </ion-item>
+  </ion-list>
+
+
+  <br>
+  <ion-button expand="block" id="botonTema" (click)="login()">
+    Aceptar
+  </ion-button>
+
+  <br>
+  <br>
+
+  <div class="center">
+    <a class="text" href="/register">
+      <ion-icon name="person-add-outline"></ion-icon>
+      Crear cuenta
+    </a>
+    <br>
+    <br>
+    <a class="text" href="/reset-password">
+      <ion-icon name="mail-outline"></ion-icon>
+      Recuperar contraseña
+    </a>
+  </div>
+
+
+  {{ user | json }}
+</ion-content>
+
+<footer style="text-align: center; padding: 20px">
+  <p>Aplicación realizada por <a color="primary" href="https://github.com/torrespedrob/BraveKey-Ionic-v2">Pedro Torres
+      <ion-icon name="logo-github" color="warnings"></ion-icon>
+    </a></p>
+</footer>
