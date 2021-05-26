@@ -8,7 +8,7 @@ El propósito de BraveKey es el de ayudar a los fanáticos de los teclados mecá
 Gracias a Ionic esta app dispone de un funcionamiento muy sencillo, además de una interfaz intuitiva y simple.
 
 ## Funcionamiento
-Al entrar a la aplicación, el usuario encontrará la pantalla de bienvenida, donde podrá inciar sesión, crear una cuenta, o recuperar su contraseña en caso de haberla olvidado.
+Al entrar a la aplicación, el usuario encontrará la pantalla de bienvenida, donde podrá iniciar sesión, crear una cuenta, o recuperar su contraseña en caso de haberla olvidado.
 
 ![CapturaInicio](https://github.com/torrespedrob/BraveKey-Ionic-v2/blob/main/CapturaInicio.png)
 
