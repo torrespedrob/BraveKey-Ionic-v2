@@ -1,7 +1,9 @@
 # BraveKey-Ionic-v2
 2ª versión de Bravekey. Bravekey es una aplicación Ionic de tipo CRUD, dedicada al almacenamiento de teclados mecánicos y manejo de usuarios de la app mediante Firebase.
 
-[Acceder a BraveKey](https://bravekey2.web.app/)
+🖥️ [Acceder a BraveKey](https://bravekey2.web.app/)
+
+📺 [Vídeo explicativo](https://youtu.be/YCQ5LOaucM0)
 
 ## ¿De qué trata?
 El propósito de BraveKey es el de ayudar a los fanáticos de los teclados mecánicos custom a organizar sus colecciones y almacenar detalles de ellas.
